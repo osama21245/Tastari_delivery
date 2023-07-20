@@ -5,7 +5,7 @@ import 'package:tashtari_delivery/core/class/statusrequest.dart';
 import 'package:tashtari_delivery/core/function/checkInternet.dart';
 import 'package:http/http.dart' as http;
 
-String _basicAuth = 'Basic ' + base64Encode(utf8.encode("osama:osama1234"));
+String _basicAuth = 'Basic ' + base64Encode(utf8.encode("******"));
 
 Map<String, String> myheaders = {'authorization': _basicAuth};
 
